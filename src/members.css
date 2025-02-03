@@ -41,8 +41,8 @@
 .ph3{
     position: absolute;
     z-index: 0.15;
-    height: 25%;
-    width:25%;
+    height: 20px;
+    width:350px;
 }
 .ph2{
     position:absolute;
@@ -56,8 +56,8 @@
 .ph1{
     position: absolute;
     z-index: 0.15;
-    height: 25%;
-    width:25%;
+    height: 20px;
+    width:350px;
     
 }
 .ph4{
@@ -85,4 +85,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.fimg{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
 }

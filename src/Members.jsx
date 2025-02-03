@@ -7,27 +7,120 @@ import phat from '../public/assets/images/pirate hat.png'
 import scroll from '../public/assets/images/scroll.png'
 const members=[
   {
-    name:"MEHEDI"
+    name:"Sujay Kumar Sarkar",
+    role:"Chief Coordinator",
+    img:"../public/assets/images/sujoy.jpg"
   },
   {
-    name :"AYUSH"
+    name:"Shree Banerjee",
+    role:"Chief Coordinator",
+    img:"../public/assets/images/shree.jpg"
   },
   {
-    name:"Srinjay"
+     name:"Ayan Dolui",
+     role:"Treasurer",
+     img:"../public/assets/images/Ayan.jpg"
   },
   {
-    name:"Sampurno"
+     name:"Srinjay Mishra",
+    role:"Treasurer",
+    img:"../public/assets/images/srinjay.jpg"
   },
   {
-    name:"shree"
+    name:"Sampurno Sarkar",
+    role:"Outreach Head",
+    img:"../public/assets/images/sampurno.jpg"
   },
   {
-    name:"faizan"
+    name:"Urnisha Paul",
+    role:"sponsor team",
+    img:"../public/assets/images/urnisha.jpg"
   },
   {
-    name:"Soumyabrata"
+     name:"Soham Ahmed Molla",
+     role:"Design Head",
+     img:"../public/assets/images/soham.jpg"
+  },
+  {
+    name:"Rangan Daw",
+    role:"Production Head",
+    img:"../public/assets/images/rangan.jpg"
+ }, 
+ {
+  name:"Ayush Pandey",
+  role:"Website Design Head",
+  img:"../public/assets/images/ayush.jpg"
+ },
+ {
+   name:"Tania Banerjee",
+   role:"Core , Web team",
+   img:"../public/assets/images/taniaban.jpg"
+ },
+ {
+  name:"Arijit Nandi",
+  role:"Core",
+  img:"../public/assets/images/arijit.jpg"
+},
+{
+  name:"Parag De",
+  role:"Core",
+  img:"../public/assets/images/parag.jpg"
+},
+{
+  name:"Soumya Samanta",
+  role:"Core",
+  img:"../public/assets/images/saumya.jpg"
+},
+{
+  name:"Faizan Ali Khan",
+  role:"Core",
+  img:"../public/assets/images/faizan.jpg"
+},
+{
+  name:"Sudiksha Basu Thakur",
+  role:"Core",
+  img:"../public/assets/images/sudiksha.jpg"
+},
+{
+  name:"Siddhartha Patra",
+  role:"Core",
+  img:"../public/assets/images/siddhartha.jpg"
+},
+{
+  name:"Swagata Mondal",
+  role:"Core",
+  img:"../public/assets/images/swagata.jpg"
+},
+{
+  name:"Abir Ganguly",
+  role:"Core , conference team",
+  img:"../public/assets/images/abir.jpg"
+},
+{
+  name:"Toushali Saha Roy",
+  role:"Core",
+  img:"../public/assets/images/toushali.jpg"
+}
+ ]
+const teachers=[
+  {
+    name:"Dr. Sudip Mandal"
+  },
+  {
+    name :"Prof. Samit Das"
+  },
+  {
+    name:"Prof. Ujjal Dey"
+  },
+  {
+    name:"Prof. Gopa Mandal"
+  },
+  {
+    name:"Prof. Shobhraj Haldar"
+  },
+  {
+    name:"Prof. Debjyoti Chaterjee"
   }
-
 ]
 const Members = () => {
   useGSAP(() => {
@@ -49,7 +142,6 @@ const Members = () => {
         start: '100% center',
         end:'100% center',
         scrub:false,
-        markers:true
       }
     });
     t2.from('.heading3,.ph3',{
@@ -69,11 +161,11 @@ const Members = () => {
         <Navbar/>
         <div className="core font-pirata">
           <div className='heading2 font-pirata tracking-wider text-5xl'>
-            <div className="ph1"><img src={scroll}></img></div>
+            <div className="ph1"><img src={scroll} className='ss'></img></div>
             <div className="ph2"><img src={phat} className='iii'></img></div><div className='hh'>TEACHERS TEAM</div></div>
         <div className="cards">
            {
-              members.map((it)=>
+              teachers.map((it)=>
                 (<div className="bigcard"><div className="card font-pirata" id={it.name}></div>
                 {it.name}
                 </div>)
@@ -84,14 +176,14 @@ const Members = () => {
         <div className="core font-pirata">
           <div className='heading3 font-pirata tracking-wider text-5xl'>
             <div className='ph3'>
-            <img src={scroll}></img></div>
+            <img src={scroll} className='ss'></img></div>
             <div className="ph4"><img src={phat} className='iii'></img></div><div className='hh'>STUDENTS TEAM</div>
         </div>
         <div className="cards">
            {
               members.map((it)=>
-                (<div className="bigcard2"><div className="card font-pirata" id={it.name}></div>
-                {it.name}
+                (<div className="bigcard2"><div className="card font-pirata" id={it.name}><img className="fimg" src={it.img}></img></div>
+                {it.name} <div className="role">{it.role}</div>
                 </div>)
               )
            }          
