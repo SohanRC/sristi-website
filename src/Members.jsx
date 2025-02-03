@@ -7,99 +7,114 @@ import phat from '../public/assets/images/pirate hat.png'
 import scroll from '../public/assets/images/scroll.png'
 const members=[
   {
-    name:"Sujay Kumar Sarkar",
+    name:"Sujay Kumar Sarkar (IT)",
     role:"Chief Coordinator",
     img:"../public/assets/images/sujoy.jpg"
   },
   {
-    name:"Shree Banerjee",
+    name:"Shree Banerjee (ME)",
     role:"Chief Coordinator",
     img:"../public/assets/images/shree.jpg"
   },
   {
-     name:"Ayan Dolui",
-     role:"Treasurer",
-     img:"../public/assets/images/Ayan.jpg"
-  },
-  {
-     name:"Srinjay Mishra",
+     name:"Srinjay Mishra (CSE)",
     role:"Treasurer",
     img:"../public/assets/images/srinjay.jpg"
   },
   {
-    name:"Sampurno Sarkar",
+    name:"Ayan Dolui (CE)",
+    role:"Treasurer",
+    img:"../public/assets/images/Ayan.jpg"
+ },
+  {
+    name:"Sampurno Sarkar (CSE)",
     role:"Outreach Head",
     img:"../public/assets/images/sampurno.jpg"
   },
   {
-    name:"Urnisha Paul",
+    name:"Urnisha Paul (CSE)",
     role:"sponsor team",
     img:"../public/assets/images/urnisha.jpg"
   },
   {
-     name:"Soham Ahmed Molla",
-     role:"Design Head",
-     img:"../public/assets/images/soham.jpg"
-  },
-  {
-    name:"Rangan Daw",
+    name:"Rangan Daw (ME)",
     role:"Production Head",
     img:"../public/assets/images/rangan.jpg"
- }, 
+ },
  {
-  name:"Ayush Pandey",
+  name:"Aneek Karmokar (CE)",
+  role:"design team",
+  img:"../public/assets/images/aneek.jpg"
+}, 
+ {
+  name:"Ayush Pandey (CSE)",
   role:"Website Design Head",
   img:"../public/assets/images/ayush.jpg"
  },
  {
-   name:"Tania Banerjee",
-   role:"Core , Web team",
+   name:"Tania Banerjee (CSE)",
+   role:"Core",
    img:"../public/assets/images/taniaban.jpg"
  },
  {
-  name:"Arijit Nandi",
+  name:"Mehdi Hasan (CSE)",
+  role:"Web team",
+  img:"../public/assets/images/mehdi.jpg"
+},
+ {
+  name:"Arijit Nandi (EE)",
   role:"Core",
   img:"../public/assets/images/arijit.jpg"
 },
 {
-  name:"Parag De",
+  name:"Parag De (EE)",
   role:"Core",
   img:"../public/assets/images/parag.jpg"
 },
 {
-  name:"Soumya Samanta",
+  name:"Soumya Samanta (IT)",
   role:"Core",
   img:"../public/assets/images/saumya.jpg"
 },
 {
-  name:"Faizan Ali Khan",
+  name:"Faizan Ali Khan (IT)",
   role:"Core",
   img:"../public/assets/images/faizan.jpg"
 },
 {
-  name:"Sudiksha Basu Thakur",
+  name:"Ayan Roy (CE)",
+  role:"Sponsor Head",
+  img:"../public/assets/images/ayanroy.jpg"
+},
+{
+  name:"Sudiksha Basu Thakur (ME)",
   role:"Core",
   img:"../public/assets/images/sudiksha.jpg"
 },
 {
-  name:"Siddhartha Patra",
+  name:"Siddhartha Patra (ECE)",
   role:"Core",
   img:"../public/assets/images/siddhartha.jpg"
 },
 {
-  name:"Swagata Mondal",
-  role:"Core",
-  img:"../public/assets/images/swagata.jpg"
-},
-{
-  name:"Abir Ganguly",
-  role:"Core , conference team",
+  name:"Abir Ganguly(CE)",
+  role:"Conference team",
   img:"../public/assets/images/abir.jpg"
 },
 {
-  name:"Toushali Saha Roy",
-  role:"Core",
+  name:"Toushali Saha Roy(CE)",
+  role:"Conference team",
   img:"../public/assets/images/toushali.jpg"
+},
+{
+  name:"Adrika Dutta(EE)",
+  role:"Conference team",
+  img:"../public/assets/images/adrika.jpg"
+},
+{
+  name:"Soham Ahmed Molla (ECE)",
+  role:"Design Head",
+  img:"../public/assets/images/soham.jpg"
 }
  ]
 const teachers=[
