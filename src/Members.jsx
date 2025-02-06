@@ -57,9 +57,19 @@ const members=[
    img:"../public/assets/images/taniaban.jpg"
  },
  {
-  name:"Mehdi Hasan (CSE)",
+  name:"Mehedi Hasan (CSE)",
   role:"Web team",
   img:"../public/assets/images/mehdi.jpg"
+},
+{
+  name:"Siddhant Saiba (CSE)",
+  role:"Web team",
+  img:"../public/assets/images/saiba.jpg"
+},
+{
+  name:"Sohan Roy Choudhury (CSE)",
+  role:"Web team",
+  img:"../public/assets/images/src.jpg"
 },
  {
   name:"Arijit Nandi (EE)",
@@ -119,22 +129,28 @@ const members=[
  ]
 const teachers=[
   {
-    name:"Dr. Sudip Mandal"
+    name:"Dr. Sudip Mandal",
+    img:"../public/assets/images/sdm.jpg"
   },
   {
-    name :"Prof. Samit Das"
+    name :"Prof. Samit Das",
+    img:"../public/assets/images/sobrajsir.jpeg"
   },
   {
-    name:"Prof. Ujjal Dey"
+    name:"Prof. Ujjal Dey",
+    img:"../public/assets/images/ud.jpg"
   },
   {
-    name:"Prof. Gopa Mandal"
+    name:"Prof. Gopa Mandal",
+    img:"../public/assets/images/gopamam.jpeg"
   },
   {
-    name:"Prof. Shobhraj Haldar"
+    name:"Prof. Shobhraj Haldar",
+    img:"../public/assets/images/sobrajsir.jpeg"
   },
   {
-    name:"Prof. Debjyoti Chaterjee"
+    name:"Prof. Debjyoti Chaterjee",
+    img:"../public/assets/images/sobrajsir.jpeg"
   }
 ]
 const Members = () => {
@@ -181,7 +197,7 @@ const Members = () => {
         <div className="cards">
            {
               teachers.map((it)=>
-                (<div className="bigcard"><div className="card font-pirata" id={it.name}></div>
+                (<div className="bigcard"><div className="card font-pirata" id={it.name}><img className="fimg" src={it.img}></img></div>
                 {it.name}
                 </div>)
               )
