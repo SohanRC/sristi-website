@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -145,54 +147,162 @@
 
   .card-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 30px;
+    animation: scroll 40s linear infinite;
+    
   }
-  .event-card{
-    display:flex;
-    background: red;
+
+  .card-list:hover{
+    animation-play-state: paused;
+  }
+  /* .card-list::after {
+    content: "";
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+  } */
+  .event-card {
+    display: flex;
+    border-width: 2px;
+    border-color: crimson;
     width:70px;
-    height:200px;
+    margin-top: 50px;
+    height: 320px;
     overflow: hidden;
     justify-content: center;
     align-items: center;
     border-radius: 60px;
-    min-width:70px;
+    min-width: 70px;
     background-size: auto 110%;
-    transition: .5s ease;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 5px rgb(229, 33, 72), 0 0 15px rgb(246, 58, 95);
+    
   }
-  .event-card:hover{
-    min-width:400px;
+
+  @keyframes scroll{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }
+  .event-card-2 {
+    display: flex;
+    border-width: 2px;
+    border-color: rgb(20, 130, 220);
+    width: 70px;
+    margin-top: 50px;
+    height: 300px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    min-width: 70px;
+    background-size: auto 110%;
+    
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 5px rgb(20, 130, 220), 0 0 15px rgb(20, 130, 220);
+  }
+  .event-card:hover {
+    min-width: 400px;
     background-size: auto 110%;
     border-radius: 10px;
+    cursor: pointer; 
+    transform: translateZ(50px) scale(1.05);
+    background-position: center; /* Optional: to center the image */
+  background-repeat: no-repeat;
   }
-  .card-item{
-    height:10px;
+  .event-card-2:hover {
+    min-width: 400px;
+    background-size: auto 110%;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translateZ(50px) scale(1.05);
+    background-position: center; /* Optional: to center the image */
+  background-repeat: no-repeat;
+  }
+  
+  .card-item-2 {
+    height: 10px;
     background-color: aqua;
   }
-  .card-name{
+  .card-name {
+    transform: rotate(-90deg);
+    justify-content: center;
+    align-items: center;
+    text-shadow: #222;
+    text-align: center;
+  }
+  .card-name-2 {
     transform: rotate(-90deg);
     justify-content: center;
     align-items: center;
     text-align: center;
-    
   }
   .event-card:hover .card-name {
     transform: rotate(0deg); /* On hover, rotate the text back to horizontal */
     transition: 0.2s ease;
+    cursor: pointer;
+    animation: fade-in 2s;
+    font-size: 40px;
+    text-align: center;
+  }
+  .event-card-2:hover .card-name-2 {
+    transform: rotate(0deg); /* On hover, rotate the text back to horizontal */
+    transition: 0.2s ease;
+    cursor: pointer;
+    animation: fade-in 2s;
+    font-size: 40px;
+    text-align: center;
   }
 
   .card-description {
     opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for visibility */
+    display: none;
+    /* transition: opacity 0.3s ease, visibility 0.3s ease; Smooth transition for visibility */
+    animation: fade-in 2s;
+    text-align: center;
+    padding: 20px;
   }
-  
+  .card-description-2 {
+    opacity: 0;
+    display: none;
+    /* transition: opacity 0.3s ease, visibility 0.3s ease; Smooth transition for visibility */
+    animation: fade-in 2s;
+    text-align: center;
+    padding: 20px;
+  }
+
   /* Show the description when hovering over the card */
   .event-card:hover .card-description {
     opacity: 1;
-    visibility: visible;
-    
+    display: block;
   }
+  .event-card-2:hover .card-description-2 {
+    opacity: 1;
+    display: block;
+  }
+  .blur-text{
+    
+    filter: blur(5px);
+    text-align: center;
+    margin:30px;
+    transition: opacity 0.5s ease, filter 0.5s ease;
+    font-size: 50px;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      filter: blur(5px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  .fade-in {
+    animation: fade-in 2s ease-out forwards;
+  }
+  
 }

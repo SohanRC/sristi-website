@@ -33,7 +33,14 @@ import frame from "/assets/images/frame.png";
 import compass2 from "/assets/images/compass2.png";
 import code from "/assets/images/code.jpg";
 import maze from "/assets/images/maze.jpg";
-import wheel from "/assets/images/wheel.png";
+import wheel from "/assets/images/wheel-removebg-preview.png";
+import codechronicles from "/assets/images/codechronicles.jpeg"
+import jctf from "/assets/images/jctf.jpeg"
+import mathemania from "/assets/images/mathemania.jpeg"
+import photography from "/assets/images/photography.jpeg"
+import chess from "/assets/images/chess.jpeg"
+import mazemerize from "/assets/images/mazemerize.jpeg"
+import codehunt from "/assets/images/codehunt.jpeg"
 
 
 export const wheelBG=wheel;
@@ -45,6 +52,14 @@ export const highlightThirdVideo = highlightThirdmv;
 export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
+export const codechroniclesimg=codechronicles;
+export const jctfimg=jctf;
+export const mathemaniaimg=mathemania;
+export const photographyimg=photography;
+export const chessimg=chess;
+export const mazemerizeimg=mazemerize;
+export const codehuntimg=codehunt;
+
 
 export const appleImg = apple;
 export const searchImg = search;
