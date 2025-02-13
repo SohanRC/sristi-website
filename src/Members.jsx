@@ -9,148 +9,148 @@ const members=[
   {
     name:"Sujay Kumar Sarkar (IT)",
     role:"Chief Coordinator",
-    img:"../public/assets/images/sujoy.jpg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397998/images/bdfdqwbs7ly36y4h0r8q.jpg"
   },
   {
     name:"Shree Banerjee (ME)",
     role:"Chief Coordinator",
-    img:"../public/assets/images/shree.jpg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397998/images/ppbqe8c9oksj0hkff3v6.jpg"
   },
   {
      name:"Srinjay Mishra (CSE)",
     role:"Treasurer",
-    img:"../public/assets/images/srinjay.jpg"
+    img:"../public/assets/images/usericon.png"
   },
   {
     name:"Ayan Dolui (CE)",
     role:"Treasurer",
-    img:"../public/assets/images/Ayan.jpg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397996/images/twkosoajltoj6bl7gyex.jpg"
  },
   {
     name:"Sampurno Sarkar (CSE)",
     role:"Outreach Head",
-    img:"../public/assets/images/sampurno.jpg"
+    img:"../public/assets/images/usericon.png"
   },
   {
     name:"Urnisha Paul (CSE)",
     role:"sponsor team",
-    img:"../public/assets/images/urnisha.jpg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397999/images/tui8ckuey4twwq1rscdj.jpg"
   },
   {
     name:"Rangan Daw (ME)",
     role:"Production Head",
-    img:"../public/assets/images/rangan.jpg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397996/images/nj23wzitktog4m3yx5re.jpg"
  },
  {
   name:"Aneek Karmokar (CE)",
   role:"design team",
-  img:"../public/assets/images/aneek.jpg"
+  img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397996/images/ybkut3uuxazdqsxvhzwy.jpg"
 }, 
  {
   name:"Ayush Pandey (CSE)",
   role:"Website Design Head",
-  img:"../public/assets/images/ayush.jpg"
+  img:"../public/assets/images/usericon.png"
  },
  {
    name:"Tania Banerjee (CSE)",
    role:"Core",
-   img:"../public/assets/images/taniaban.jpg"
+   img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397999/images/wkmg8hcwtxer9jhyvtp4.jpg"
  },
  {
   name:"Mehedi Hasan (CSE)",
   role:"Web team",
-  img:"../public/assets/images/mehdi.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Siddhant Saiba (CSE)",
   role:"Web team",
-  img:"../public/assets/images/saiba.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Sohan Roy Choudhury (CSE)",
   role:"Web team",
-  img:"../public/assets/images/src.jpg"
+  img:"../public/assets/images/usericon.png"
 },
  {
   name:"Arijit Nandi (EE)",
   role:"Core",
-  img:"../public/assets/images/arijit.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Parag De (EE)",
   role:"Core",
-  img:"../public/assets/images/parag.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Soumya Samanta (IT)",
   role:"Core",
-  img:"../public/assets/images/saumya.jpg"
+  img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739398000/images/dqerfpd7e4tz5loh82zu.jpg"
 },
 {
   name:"Faizan Ali Khan (IT)",
   role:"Core",
-  img:"../public/assets/images/faizan.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Ayan Roy (CE)",
   role:"Sponsor Head",
-  img:"../public/assets/images/ayanroy.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Sudiksha Basu Thakur (ME)",
   role:"Core",
-  img:"../public/assets/images/sudiksha.jpg"
+  img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397998/images/vrvbqbdy9koirh542gcw.jpg"
 },
 {
   name:"Siddhartha Patra (ECE)",
   role:"Core",
-  img:"../public/assets/images/siddhartha.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Abir Ganguly(CE)",
   role:"Conference team",
-  img:"../public/assets/images/abir.jpg"
+  img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397995/images/wqn87n0cgmk9ze3akjo7.jpg"
 },
 {
   name:"Toushali Saha Roy(CE)",
   role:"Conference team",
-  img:"../public/assets/images/toushali.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Adrika Dutta(EE)",
   role:"Conference team",
-  img:"../public/assets/images/adrika.jpg"
+  img:"../public/assets/images/usericon.png"
 },
 {
   name:"Soham Ahmed Molla (ECE)",
   role:"Design Head",
-  img:"../public/assets/images/soham.jpg"
+  img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739398006/images/egovi32di5gyzcbxs7yl.jpg"
 }
  ]
 const teachers=[
   {
     name:"Dr. Sudip Mandal",
-    img:"../public/assets/images/sdm.jpg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739400071/sdm_qsqebn.jpg"
   },
   {
     name :"Prof. Samit Das",
-    img:"../public/assets/images/sobrajsir.jpeg"
+    img:"../public/assets/images/usericon.png"
   },
   {
     name:"Prof. Ujjal Dey",
-    img:"../public/assets/images/ud.jpg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397999/images/oawrbbqepnfpthfhlrdz.jpg"
   },
   {
     name:"Prof. Gopa Mandal",
-    img:"../public/assets/images/gopamam.jpeg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739400071/gopamam_mh8ncb.jpg"
   },
   {
     name:"Prof. Shobhraj Haldar",
-    img:"../public/assets/images/sobrajsir.jpeg"
+    img:"https://res.cloudinary.com/dzrleetiw/image/upload/v1739397997/images/ezk5zsbjagdwo8wplaha.jpg"
   },
   {
     name:"Prof. Debjyoti Chaterjee",
-    img:"../public/assets/images/sobrajsir.jpeg"
+    img:"../public/assets/images/usericon.png"
   }
 ]
 const Members = () => {
@@ -164,7 +164,7 @@ const Members = () => {
     tl.to('.ph2',{rotation:25,delay:0.2})
     tl.to('.ph2',{rotation:10,delay:0.2})
     tl.from('.bigcard', {
-      opacity: 0, duration: 1,delay:1,stagger:0.2,scale:0
+      opacity: 0, duration: 1,delay:0.5,stagger:0.2,scale:0
     },1);
     
     const t2 = gsap.timeline({
